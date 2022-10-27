@@ -1,0 +1,40 @@
+.container {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(220deg, 15%, 55%);
+  height: 100vh;
+}
+.container .card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 5%;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .card .card-img {
+  object-fit: cover;
+  width: 90%;
+  margin: 5%;
+  border-radius: 5%;
+}
+.container .card .card-desc-container {
+  margin: 5%;
+}
+.container .card .card-desc-container .card-title {
+  text-align: center;
+  font-weight: 700;
+}
+.container .card .card-desc-container .card-text {
+  text-align: center;
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css.map */
