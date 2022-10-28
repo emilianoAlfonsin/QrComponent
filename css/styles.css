@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212deg, 45%, 89%);
@@ -9,8 +14,8 @@
 }
 .container .card {
   background-color: hsl(0deg, 0%, 100%);
-  border-radius: 15px;
-  width: 300px;
+  border-radius: 1rem;
+  width: 18rem;
   height: fit-content;
   justify-content: center;
   flex-direction: column;
@@ -22,11 +27,13 @@
   border-radius: 10px;
 }
 .container .card .card-desc-container {
-  margin: 5%;
+  margin: 1rem;
 }
 .container .card .card-desc-container .card-title {
   text-align: center;
   font-weight: 700;
+  font-size: larger;
+  margin-bottom: 1rem;
 }
 .container .card .card-desc-container .card-text {
   text-align: center;

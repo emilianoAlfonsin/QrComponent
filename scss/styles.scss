@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .container {
     font-family: 'Outfit', sans-serif;
@@ -10,8 +14,8 @@
 
     .card {
         background-color: hsl(0, 0%, 100%);
-        border-radius: 15px;
-        width: 300px;
+        border-radius: 1rem;
+        width: 18rem;
         height:fit-content;
         justify-content: center;
         flex-direction: column;
@@ -24,11 +28,13 @@
         }
 
         .card-desc-container {
-            margin: 5%;
+            margin: 1rem;
 
             .card-title {
                 text-align: center;
                 font-weight: 700;
+                font-size:larger;
+                margin-bottom: 1rem;
             }
     
             .card-text {
