@@ -19,6 +19,7 @@
         height:fit-content;
         justify-content: center;
         flex-direction: column;
+        box-shadow: 1rem 1rem 2rem hsl(220, 15%, 75%) ;
 
         .card-img {
             object-fit: cover;
